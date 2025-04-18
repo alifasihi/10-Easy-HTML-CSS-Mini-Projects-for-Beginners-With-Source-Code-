@@ -1,0 +1,28 @@
+body{
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+button{
+    background: #e0e0e0;
+    border: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 6px 6px 12px #bebebe,
+    -6px -6px 12px #ffffff;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: inset 4px 4px 10px #bebebe,
+    inset -4px -4px 10px #ffffff;
+}

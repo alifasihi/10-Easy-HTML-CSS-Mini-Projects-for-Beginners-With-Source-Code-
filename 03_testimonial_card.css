@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #f0f4f8;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.stars{
+    color: gold;
+    margin: 5px 0;
+}
+
+.text{
+    font-size: 14px;
+}

@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.color{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+.color1{
+    background: #ff6b6b;
+}
+
+.color2{
+    background: #4ecdc4;
+}
+
+.color3{
+    background: #1a535c;
+}
